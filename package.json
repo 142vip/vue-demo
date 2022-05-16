@@ -1,6 +1,8 @@
 {
   "name": "vue-demo",
   "version": "0.1.0",
+  "author": "mmdapl",
+  "description": "Vue开发模板，在原有vue-cli模板上进一步封装",
   "private": true,
   "scripts": {
     "dev": "vue-cli-service serve",
