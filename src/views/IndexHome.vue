@@ -1,58 +1,36 @@
 <template>
-  <div class="home-div">
-    <Header/>
-    <div class="flex-div">
-      <LeftSideMenu class="flex-com"/>
-      <RightView class="flex-com"/>
-    </div>
-    <Footer/>
-    <!--  回到顶部 -->
-    <BackTop
-      :bottom="50"
-      :height="100"
-    >
-    </BackTop>
-  </div>
+  <a-layout id="components-layout-demo-side" style="min-height: 100vh">
+    <left-side-menu/>
+    <a-layout>
+      <a-page-header/>
+      <right-view style="height: 100%"/>
+      <page-footer style="text-align: center"/>
+    </a-layout>
+  </a-layout>
 </template>
 <script>
-import Header from '../components/common/PageHeader'
-import LeftSideMenu from '../components/common/LeftSideMenu'
-import RightView from '../components/common/RightView'
-import Footer from '../components/common/PageFooter'
+import leftSideMenu from '@/components/common/LeftSideMenu'
+import RightView from '@/components/common/RightView'
+import PageFooter from '@/components/common/PageFooter'
 
 export default {
-  name: 'indexView',
+  components: {
+    PageFooter,
+    RightView,
+    leftSideMenu
+  },
   data () {
     return {
-      newName: ''
+      collapsed: false
     }
-  },
-  components: {
-    Header,
-    LeftSideMenu,
-    RightView,
-    Footer
-  },
-  methods: {}
+  }
 }
 </script>
 
-<style scoped>
-
-.home-div {
-  height: 100vh;
-  width: 100%;
-  min-width: 1000px !important;
-}
-
-.flex-div {
-  display: flex;
-  width: 100%;
-  min-width: 900px;
-}
-
-.flex-com {
-  display: inline;
-  width: 100%;
+<style>
+#components-layout-demo-side .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
 }
 </style>

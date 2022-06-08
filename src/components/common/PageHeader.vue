@@ -7,7 +7,6 @@
     >
       <h3 class="system-name">OAuth2支撑平台</h3>
 
-      <!-- <div class="layout-logo">1231312</div> -->
       <div class="layout-nav">
         <Dropdown placement="bottom-end">
           <a href="javascript:void(0)">
