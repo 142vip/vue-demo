@@ -30,4 +30,4 @@ npm run lint
 
 ### 自定义配置
 
-See [Configuration Reference](https://cli.vuejs.org/config/).
+参考链接：https://cli.vuejs.org/zh/config/index.html

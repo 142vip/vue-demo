@@ -1,6 +1,6 @@
 <template>
   <div class="home-div">
-    <Header :username="newName"/>
+    <Header/>
     <div class="flex-div">
       <LeftSideMenu class="flex-com"/>
       <RightView class="flex-com"/>
@@ -15,12 +15,13 @@
   </div>
 </template>
 <script>
-import Header from '../components/common/Header'
+import Header from '../components/common/PageHeader'
 import LeftSideMenu from '../components/common/LeftSideMenu'
 import RightView from '../components/common/RightView'
-import Footer from '../components/common/Footer'
+import Footer from '../components/common/PageFooter'
 
 export default {
+  name: 'indexView',
   data () {
     return {
       newName: ''

@@ -1,22 +1,5 @@
 <template>
   <div>
-    <img
-      v-if="isIntroduceShow&&randomNum===1"
-      alt=""
-      height="100%"
-      src="@/assets/images/oauth2_introduce_001.png"
-      srcset=""
-      width="100%"
-    >
-    <img
-      v-if="isIntroduceShow&&randomNum===2"
-      alt=""
-      height="100%"
-      src="@/assets/images/oauth2_introduce_002.png"
-      srcset=""
-      width="100%"
-    >
-
     <Card
       v-if="!isIntroduceShow"
       :bordered="false"
@@ -44,6 +27,7 @@
 <script>
 
 export default {
+  name: 'rightView',
   data () {
     return {
       isIntroduceShow: false,

@@ -3,6 +3,7 @@
  */
 import homeView from '@/views/HomeView'
 import aboutView from '@/views/AboutView'
+import indexHome from '@/views/IndexHome'
 
 export default [
   {
@@ -14,5 +15,10 @@ export default [
     path: '/about',
     name: 'about',
     component: aboutView
+  },
+  {
+    path: '/admin',
+    name: 'admin',
+    component: indexHome
   }
 ]

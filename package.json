@@ -1,17 +1,44 @@
 {
   "name": "vue-demo",
   "version": "0.1.0",
-  "author": "mmdapl",
   "description": "Vue开发模板，在原有vue-cli模板上进一步封装",
+  "keywords": [
+    "142vip",
+    "fairy-cli",
+    "vue-demo",
+    "Rong姐姐好可爱"
+  ],
   "private": true,
+  "homepage": "https://github.com/fairyfan1998/vue-demo",
+  "author": {
+    "name": "Rong阶级好可爱",
+    "email": "fairy0115@2925.com",
+    "url": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fairyfan1998/vue-demo"
+  },
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "",
+      "email": "",
+      "url": ""
+    }
+  ],
   "scripts": {
     "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "scripts-info": {
+    "dev": "开发环境下，项目启动",
+    "build": "项目构建打包成静态文件"
+  },
   "dependencies": {
+    "ant-design-vue": "1.7.0",
     "axios": "^0.27.2",
-    "compression-webpack-plugin": "^10.0.0",
     "core-js": "^3.8.3",
     "vue": "^2.6.14",
     "vue-router": "^3.5.1",
@@ -26,6 +53,7 @@
     "@vue/cli-plugin-vuex": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
     "@vue/eslint-config-standard": "^6.1.0",
+    "compression-webpack-plugin": "^10.0.0",
     "eslint": "^7.32.0",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-node": "^11.1.0",
