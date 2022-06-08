@@ -1,7 +1,7 @@
 /**
  * 封装关于时间格式处理的操作
  */
-export default class {
+export default {
   /**
    * 将时间错转化为标准格式时间
    * @param {number} bigIntValue 10位或者13位时间戳
