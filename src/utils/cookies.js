@@ -1,7 +1,7 @@
 /**
  * 封装关于cookie的操作
  */
-export default class {
+export default {
   /**
    * 获取cookies
    * @param {string} name 键值对中的键
@@ -13,7 +13,7 @@ export default class {
     } else {
       return null
     }
-  }
+  },
 
   /**
    * @author xxxx
