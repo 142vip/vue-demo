@@ -1,6 +1,6 @@
 {
   "name": "vue-demo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Vue开发模板，在原有vue-cli模板上进一步封装",
   "keywords": [
     "142vip",
