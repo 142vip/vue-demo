@@ -1,24 +1,21 @@
 /**
  * 公开路由，不需要鉴权
  */
-import homeView from '@/views/HomeView'
-import aboutView from '@/views/AboutView'
-import indexHome from '@/views/IndexHome'
 
 export default [
   {
     path: '/',
     name: 'home',
-    component: homeView
+    component: () => import('../views/Home')
   },
   {
     path: '/about',
     name: 'about',
-    component: aboutView
+    component: () => import('../views/About')
   },
   {
     path: '/admin',
     name: 'admin',
-    component: indexHome
+    component: () => import('../views/Index')
   }
 ]

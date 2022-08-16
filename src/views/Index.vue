@@ -14,6 +14,7 @@ import RightView from '@/components/common/RightView'
 import PageFooter from '@/components/common/PageFooter'
 
 export default {
+  name: 'indexPage',
   components: {
     PageFooter,
     RightView,

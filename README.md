@@ -7,6 +7,10 @@ vue项目模板
 ```shell
 ## 安装模块
 npm install
+
+## 支持pnpm对模块管理
+npm install pnpm 
+pnpm install 
 ```
 
 ### 项目启动

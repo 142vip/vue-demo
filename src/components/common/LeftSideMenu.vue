@@ -1,5 +1,5 @@
 <template>
-  <a-layout-sider v-model="collapsed" collapsible>
+  <a-layout-sider v-model="collapsed" class="left-side-menu-container" collapsible>
     <div class="logo"/>
     <a-menu :default-selected-keys="['1']" mode="inline" theme="dark">
       <a-menu-item key="1">

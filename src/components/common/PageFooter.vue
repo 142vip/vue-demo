@@ -1,5 +1,5 @@
 <template>
-  <div id="footer">
+  <div id="page-footer-container">
     <Row>
       <Col span="6">
         <div class="col-div">
@@ -256,7 +256,7 @@ export default {
 }
 </script>
 <style scoped>
-#footer {
+#page-footer-container {
   padding: 50px 24px;
   background: #001529;
   overflow: hidden;

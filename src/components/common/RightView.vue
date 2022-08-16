@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="right-view-container">
     <a-layout-header style="background: #fff; padding: 0"/>
     <a-layout-content style="margin: 0 16px">
       <a-breadcrumb style="margin: 16px 0">
@@ -15,7 +15,7 @@
 </template>
 
 <style scoped>
-.right-view-div {
+.right-view-container {
   background: #fff;
   margin: 10px;
   height: auto;

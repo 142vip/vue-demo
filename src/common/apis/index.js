@@ -8,8 +8,9 @@
  */
 
 import axios from 'axios'
-import { globalConfig } from '../../config'
-import { cookies } from '../utils'
+import { globalConfig } from '../../../config'
+import { cookiesTool } from '@/common/utils'
+import { message } from 'ant-design-vue'
 
 /**
  * request拦截统一处理请求数据
@@ -18,7 +19,7 @@ axios.interceptors.request.use(function (config) {
   // 在发送请求之前做些什么
 
   // 添加登录的tokenKey
-  const tokenKey = localStorage.getItem('tokenKey') || cookies.getCookie('tokenKey')
+  const tokenKey = localStorage.getItem('tokenKey') || cookiesTool.getCookie('tokenKey')
   console.log('front tokenKey:', tokenKey)
   config.headers['token-key'] = tokenKey
 
@@ -55,7 +56,7 @@ axios.interceptors.response.use(response => {
   return response
 }, error => {
   // 对响应错误做点什么
-  this.$Message.error('网络错误')
+  message.error('网络错误')
   return Promise.reject(error)
 })
 

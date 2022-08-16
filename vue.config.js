@@ -1,3 +1,4 @@
+'use strict'
 /*
  * @Description:
  * @Version: Beata1.0
@@ -6,7 +7,6 @@
  * @LastEditors: 【B站&公众号】Rong姐姐好可爱
  * @LastEditTime: 2020-10-04 09:44:58
  */
-'use strict'
 
 // 导入compression-webpack-plugin
 const CompressionWebpackPlugin = require('compression-webpack-plugin')

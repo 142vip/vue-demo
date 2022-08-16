@@ -1,5 +1,5 @@
 <template>
-  <Row>
+  <Row class="page-header-container">
     <Menu
       class="flex-menu"
       mode="horizontal"
@@ -59,8 +59,6 @@
 
 .layout-nav {
   width: auto;
-  margin: 0 auto;
-  margin-right: 10px;
 }
 
 .ivu-menu-submenu {

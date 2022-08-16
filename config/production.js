@@ -3,10 +3,10 @@
  */
 module.exports = {
   axiosConfig: {
-    baseUrl: 'http://127.0.0.1'
+    baseAPIURI: 'http://127.0.0.1'
   },
   devServer: {
-    port: 3000, // 设置端口号
+    port: 6000, // 设置端口号
     host: '127.0.0.1', // ip地址
     hot: true, // 热更新
     https: false, // https:{type:Boolean}配置前缀

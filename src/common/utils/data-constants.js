@@ -3,5 +3,5 @@
  */
 
 export default {
-  DOMAINURL: 'https://142vip.cn'
+  domain: 'https://142vip.cn'
 }
